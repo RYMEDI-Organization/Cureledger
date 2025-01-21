@@ -20,58 +20,63 @@ Developers can connect and build on CureLedger using our **RPC/API endpoints**. 
 
 ---
 
-# Quickstart
+## 🛠️ High-Level Architecture
 
-## Project Setup
-- First clone the repo (https://github.com/RYMEDI-Organization/Cureledger)
-- cd Cureledger
-- npm i 
-- Create a .env on repo root directory and make a variable PRIVATE_KEY
-#### For compiling the smart contract
-- npx hardhat clean
-- npx hardhat compile
-#### For Running the test cases 
-- npx hardhat test 
-#### For Contract deployment on networks
-- npx hardhat run scripts/deploy.ts --network fuji_testnet
+CureLedger's technical foundation includes the following components:
 
-## 🔗 Related Repositories
+1. **Three Core Endpoints**: These endpoints provide essential services, enabling data submission, query, and transaction validation across the CureLedger ecosystem.
+   - **Data Submission API**: For securely uploading and verifying health data.
+   - **Data Query API**: For retrieving and interacting with marketplace data.
+   - **Transaction API**: For coordinating token transfers and on-chain operations.
 
-Explore complementary components and tools hosted in the [**DRCX GitHub Organization**](https://github.com/DRCX):
+2. **Compliance Back End**: Ensures all transactions and data processes align with global regulatory standards, supporting decentralized compliance management.
 
-- **dApps**: Decentralized applications built to extend CureLedger's functionality and user experience.
-- **Integration Guides**: Resources for developers to connect their projects to CureLedger.
+3. **ERC20 Utility Token ($DSCI)**: Facilitates cross-chain operations, binds transactions to the CureLedger network, and enables seamless interactions between dApps and the marketplace.
 
 ---
 
-## 🛠️ Getting Started
+## Quickstart
 
-### Prerequisites
+### Project Setup
 
-To start using CureLedger's open-source components or integrating your dApps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RYMEDI-Organization/cureledger.git
+   cd cureledger
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file in the root directory and add the variable `PRIVATE_KEY`.
 
-1. Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Familiarize yourself with basic blockchain development tools (e.g., [Hardhat](https://hardhat.org/) 
-
-### Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/DRCX/cureledger.git
-cd cureledger
-```
-
-Install dependencies:
+#### Compiling the Smart Contract
 
 ```bash
-npm install
+npx hardhat clean
+npx hardhat compile
 ```
 
-### Usage
+#### Running Test Cases
 
-- **DSCI Token**: The ERC20 implementation can be found in the `token` directory.
-- **Cypher Module**: Details for cryptographic operations are available in the `cypher` directory.
+```bash
+npx hardhat test
+```
+
+#### Deploying Contracts to Networks
+
+```bash
+npx hardhat run scripts/deploy.ts --network fuji_testnet
+```
+
+---
+
+## 🔗 Related Repositories
+
+Explore complementary components and tools hosted in the [**DrCrossDAO GitHub Organization**](https://github.com/DrCrossDAO):
+
+- **dApps**: Decentralized applications built to extend CureLedger's functionality and user experience.
+- **Integration Guides**: Resources for developers to connect their projects to CureLedger.
 
 ---
 
@@ -108,7 +113,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 Stay updated and connect with the team:
 
-- 🌐 [Website](https://cureledger.drcx.org)
+- 🌐 [Website](https://cureledger.com)
 - 💬 [CureLedger Discord](https://discord.gg/cureledger)
 - 🐦 [Twitter](https://twitter.com/cureledger)
 
@@ -125,19 +130,3 @@ We’re continuously evolving CureLedger. Here's what’s next:
 - Release developer-focused guides and tools.
 
 ---
-
-
-# Quickstart
-
-## Project Setup
-- First clone the repo (https://github.com/RYMEDI-Organization/Cureledger)
-- cd Cureledger
-- npm i 
-- Create a .env on repo root directory and make a variable PRIVATE_KEY
-#### For compiling the smart contract
-- npx hardhat clean
-- npx hardhat compile
-#### For Running the test cases 
-- npx hardhat test 
-#### For Contract deployment on networks
-- npx hardhat run scripts/deploy.ts --network fuji_testnet
