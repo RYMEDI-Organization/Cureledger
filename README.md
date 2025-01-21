@@ -16,7 +16,7 @@ Here, you'll find open-source components critical to CureLedger's functionality,
 
 ### 🌐 Interface with CureLedger
 
-Developers can connect and build on CureLedger using our **RPC/API endpoints**. These endpoints allow seamless integration of external decentralized applications (dApps) with CureLedger. Access the API documentation [here](https://api.cureledger.drcx.org).
+Developers can connect and build on CureLedger using our **RPC/API endpoints**. These endpoints allow seamless integration of external decentralized applications (dApps) with CureLedger. Access the API documentation [here](https://api.cureledger.org).
 
 ---
 
@@ -51,7 +51,7 @@ Explore complementary components and tools hosted in the [**DRCX GitHub Organiza
 To start using CureLedger's open-source components or integrating your dApps:
 
 1. Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Familiarize yourself with basic blockchain development tools (e.g., [Hardhat](https://hardhat.org/) or [Brownie](https://eth-brownie.readthedocs.io/)).
+2. Familiarize yourself with basic blockchain development tools (e.g., [Hardhat](https://hardhat.org/) 
 
 ### Installation
 
@@ -109,10 +109,10 @@ This project is licensed under the [MIT License](LICENSE).
 Stay updated and connect with the team:
 
 - 🌐 [Website](https://cureledger.drcx.org)
-- 💬 [CureLedger Discord](https://discord.gg/xyz)
+- 💬 [CureLedger Discord](https://discord.gg/cureledger)
 - 🐦 [Twitter](https://twitter.com/cureledger)
 
-For inquiries, please contact [support@cureledger.drcx.org](mailto:support@cureledger.drcx.org).
+For inquiries, please contact [info@cureledger.com](mailto:info@cureledger.com).
 
 ---
 
